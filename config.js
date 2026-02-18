@@ -5,10 +5,10 @@ if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 module.exports = { 
     SESSION_ID: process.env.SESSION_ID || 'kord_ai-zBf5r4dtMkyQukDh',
     OWNER_NUMBER: process.env.OWNER_NUMBER || "447778631793",
-    WORKTYPE: process.env.WORKTYPE || "private",
+    WORKTYPE: process.env.WORKTYPE || "public",
     PREFIX: process.env.PREFIX || "[.]",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || true,
-    MONGODB_URI: process.env.MONGODB_URI || "true",
+    MONGODB_URI: process.env.MONGODB_URI || "",
     STATUS_VIEW: process.env.STATUS_VIEW || true,
     SAVE_STATUS: process.env.SAVE_STATUS || false,
     LIKE_STATUS: process.env.SAVE_STATUS || false,
