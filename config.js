@@ -8,7 +8,7 @@ module.exports = {
     WORKTYPE: process.env.WORKTYPE || "private",
     PREFIX: process.env.PREFIX || "[.]",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || true,
-    MONGODB_URI: process.env.MONGODB_URI || "",
+    MONGODB_URI: process.env.MONGODB_URI || "mongodb+srv://Frosty: 5Y2aDiWh2Y80lAk2@cluster0.3yhqicb.mongodb.net/?appName=Cluster0",
     STATUS_VIEW: process.env.STATUS_VIEW || true,
     SAVE_STATUS: process.env.SAVE_STATUS || false,
     LIKE_STATUS: process.env.SAVE_STATUS || false,
